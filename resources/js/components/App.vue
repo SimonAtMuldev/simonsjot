@@ -1,8 +1,18 @@
 <template>
-    <div>
-        <h1>siacom hello</h1>
+    <div class="h-screen bg-white">
+        <div class="flex">
+            <div class="bg-gray-200 w-48 h-screen">
+                sidebar
+            </div>
+            <div>
+                <div></div>
+                <div>
+                    <router-view></router-view>
+                </div>
+            </div>
+        </div>
 
-        <router-view></router-view>
+
     </div>
 </template>
 
