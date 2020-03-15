@@ -7,3 +7,15 @@
     font-size: 0.875rem;
     padding-top: 2.5rem;
 }
+
+.contact_create_label {
+    @apply font-bold text-blue-500 uppercase text-xs pt-2 absolute;
+}
+
+
+.contact_create_input {
+    @apply pt-8 w-full border-b pb-2 text-gray-900;
+
+
+}
+

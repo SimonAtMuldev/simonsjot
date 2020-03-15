@@ -13956,6 +13956,23 @@ video {
   padding-top: 2.5rem;
 }
 
+.contact_create_label {
+  font-weight: 700;
+  color: #4299e1;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding-top: 0.5rem;
+  position: absolute;
+}
+
+.contact_create_input {
+  padding-top: 2rem;
+  width: 100%;
+  border-bottom-width: 1px;
+  padding-bottom: 0.5rem;
+  color: #1a202c;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
